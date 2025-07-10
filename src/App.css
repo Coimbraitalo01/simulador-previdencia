@@ -1,0 +1,90 @@
+/* Cores base */
+:root {
+  --azul-profundo: #002D72;
+  --dourado: #B9975B;
+  --cinza-claro: #f8f9fa;
+}
+
+/* Estrutura principal */
+.app-container {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--cinza-claro);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.simulador-box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 600px;
+  padding: 2.5rem;
+}
+
+/* Tipografia */
+.titulo-principal {
+  color: var(--azul-profundo);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* Componentes interativos */
+.input-group {
+  margin-bottom: 1.8rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.8rem;
+  color: var(--azul-profundo);
+  font-weight: 600;
+}
+
+.valor-display {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.botao-simular {
+  background-color: var(--dourado);
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.botao-simular:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Resultados */
+.resultado-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(0, 45, 114, 0.05);
+  border-radius: 8px;
+}
+
+.montante-final {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--azul-profundo);
+  margin: 1rem 0;
+}
+
+.detalhes-retorno p {
+  margin: 0.5rem 0;
+  color: #555;
+}
