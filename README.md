@@ -1,24 +1,34 @@
-# 🧮 Simulador de Previdência
+# 🧮 Simulador de Previdência Privada
 
-Este é um simulador de previdência privada construído com **React**, **Vite** e **Tailwind CSS**.  
-O projeto permite ao usuário simular o valor futuro investindo um valor mensal ao longo dos anos.
-Preview: https://github.com/Coimbraitalo01/simulador-previdencia/blob/main/Preview.png
+![Preview do Simulador](https://raw.githubusercontent.com/Coimbraitalo01/simulador-previdencia/main/Preview.png?raw=true)
 
+Simulador financeiro construído com **React + Vite + Tailwind CSS** que calcula o valor futuro de investimentos mensais em previdência privada.
 
----
+🔗 [Acesse a aplicação online](https://coimbraitalo01.github.io/simulador-previdencia/)
 
-## ⚙️ Tecnologias utilizadas
+## ✨ Funcionalidades
 
-- [React](https://reactjs.org)
-- [Vite](https://vitejs.dev)
-- [Tailwind CSS](https://tailwindcss.com)
+- 📈 Simulação de rendimentos com juros compostos
+- ⚡ Cálculos em tempo real
+- 🎚️ Ajuste de parâmetros:
+  - Valor mensal investido
+  - Período de contribuição (anos)
+  - Taxa de retorno anual
+- 📱 Design responsivo
+- 🌗 Modo claro/escuro
 
----
+## 🛠️ Stack Tecnológica
 
-## 🖥️ Como executar localmente
+| Tecnologia | Descrição |
+|------------|-----------|
+| [React](https://reactjs.org/) | Biblioteca front-end (v18+) |
+| [Vite](https://vitejs.dev/) | Build tool ultra-rápido |
+| [Tailwind CSS](https://tailwindcss.com/) | Framework CSS utility-first |
+| [React Hook Form](https://react-hook-form.com/) | Gerenciamento de formulários |
+| [Jest](https://jestjs.io/) | Testes unitários |
+
+## 🚀 Como Executar Localmente
 
 1. Clone o repositório:
-
 ```bash
-git clone https://github.com/seu-usuario/simulador-previdencia.git
-cd simulador-previdencia
+git clone https://github.com/Coimbraitalo01/simulador-previdencia.git
