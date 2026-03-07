@@ -4,19 +4,19 @@
 
 Simulador financeiro desenvolvido com React, Vite e Tailwind CSS para o cálculo de valor futuro de investimentos mensais em previdência privada. O projeto foca em fornecer uma interface rápida e precisa para projeções de juros compostos.
 
-[Acesse a aplicação online](https://coimbraitalo01.github.io/simulador-previdencia/)
+Acesse a aplicação online: https://coimbraitalo01.github.io/simulador-previdencia/
 
 ---
 
 ## Funcionalidades
 
-* **Calculo de Rendimentos:** Simulação baseada em juros compostos com aportes mensais.
-* **Processamento em Tempo Real:** Cálculos atualizados instantaneamente conforme a alteração dos inputs.
-* **Parâmetros de Simulação:**
+* Calculo de Rendimentos: Simulação baseada em juros compostos com aportes mensais.
+* Processamento em Tempo Real: Cálculos atualizados instantaneamente conforme a alteração dos inputs.
+* Parâmetros de Simulação:
     * Valor do aporte mensal investido.
     * Período total de contribuição em anos.
     * Taxa de retorno anual estimada.
-* **Interface Adaptável:** Design responsivo com suporte aos modos claro e escuro.
+* Interface Adaptável: Design responsivo com suporte aos modos claro e escuro.
 
 ---
 
@@ -24,11 +24,11 @@ Simulador financeiro desenvolvido com React, Vite e Tailwind CSS para o cálculo
 
 | Tecnologia | Finalidade |
 | :--- | :--- |
-| **React** | Biblioteca principal para construção da interface (v18+). |
-| **Vite** | Ferramenta de build para desenvolvimento e otimização. |
-| **Tailwind CSS** | Framework utilitário para estilização e responsividade. |
-| **React Hook Form** | Gerenciamento de formulários e validação de dados. |
-| **Jest** | Execução de testes unitários para validar a lógica financeira. |
+| React | Biblioteca principal para construção da interface (v18+). |
+| Vite | Ferramenta de build para desenvolvimento e otimização. |
+| Tailwind CSS | Framework utilitário para estilização e responsividade. |
+| React Hook Form | Gerenciamento de formulários e validação de dados. |
+| Jest | Execução de testes unitários para validar a lógica financeira. |
 
 ---
 
@@ -36,6 +36,34 @@ Simulador financeiro desenvolvido com React, Vite e Tailwind CSS para o cálculo
 
 Para rodar o projeto em ambiente de desenvolvimento, siga os passos abaixo:
 
-1. **Clonar o repositório:**
-   ```bash
-   git clone [https://github.com/Coimbraitalo01/simulador-previdencia.git](https://github.com/Coimbraitalo01/simulador-previdencia.git)
+1. Clonar o repositório:
+   git clone https://github.com/Coimbraitalo01/simulador-previdencia.git
+
+2. Entrar no diretório:
+   cd simulador-previdencia
+
+3. Instalar as dependências:
+   npm install
+
+4. Iniciar o servidor:
+   npm run dev
+
+---
+
+## Testes
+
+Para garantir a integridade dos cálculos matemáticos da aplicação, utilize o comando:
+npm run test
+
+---
+
+## Planejamento de Melhorias
+
+* Implementação de gráficos de linha para visualização da evolução patrimonial.
+* Adição de campo para cálculo de rentabilidade real (descontando inflação).
+* Funcionalidade de exportação dos resultados da simulação para PDF ou CSV.
+
+---
+
+### Autor
+Desenvolvido por Ítalo Coimbra.
